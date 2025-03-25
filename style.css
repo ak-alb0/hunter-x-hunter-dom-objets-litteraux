@@ -1,0 +1,45 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-left: 30px;
+}
+header hr {
+    margin: 0px 30px;
+    border: 4px solid black;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.nav-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border: 10px solid black;
+    border-radius: 10px;
+    width: max-content;
+    height: 302px;
+}
+
+.img {
+    padding: 7px;
+    border: 10px solid black;
+}
+.img img{
+    width: 100%;
+}
+
+.text {
+    padding: 7px;
+}
+/* .text-text {
+    background-color: ;
+} */
